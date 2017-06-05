@@ -1,0 +1,53 @@
+body {
+	background-image: url('coolbackground.png');
+	background-attachment: fixed;
+	background-color: #00ff00
+}
+
+h1{
+	color: #00ff00;
+	text-shadow: 3px 2px red;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #000000;
+}
+
+li a:hover {
+    background-color: #0080ff;
+}
+
+li a.active {
+	background-color: #0000ff;
+}
+
+iframe {
+	background-color: #0000ff;
+	border-style: 5px solid #000;
+}
+
+p {
+	background-color: #fff
+}
+
+code {
+	background-color: #0000ff;
+	font-size: 30px;
+}
